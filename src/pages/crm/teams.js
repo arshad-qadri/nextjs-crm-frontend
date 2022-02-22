@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-const teams = () => {
+const Teams = () => {
   const [showProjectData, setShowProjectData] = useState(false);
   const projectData = [
     {
@@ -266,4 +266,4 @@ const teams = () => {
   );
 };
 
-export default teams;
+export default Teams;
