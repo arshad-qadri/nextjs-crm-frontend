@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .layout {
   display: grid;
   grid-template-columns: 230px auto;
@@ -76,4 +76,25 @@
   font-size: 14px;
   line-height: 17px;
   color: rgba(18, 18, 18, 0.71);
+}
+.addnewrole-table tbody,
+.addnewrole-table td,
+.addnewrole-table tfoot,
+.addnewrole-table th,
+.addnewrole-table thead,
+.addnewrole-table tr,
+.main-table-inner tbody,
+.main-table-inner td,
+.main-table-inner tfoot,
+.main-table-inner th,
+.main-table-inner thead,
+.main-table-inner tr,
+.teams-main .teams tbody,
+.teams-main .teams td,
+.teams-main .teams tfoot,
+.teams-main .teams th,
+.teams-main .teams thead,
+.teams-main .teams tr {
+  border: none !important;
+  border-color: unset !important;
 }
