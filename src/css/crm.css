@@ -104,6 +104,7 @@
   border-color: unset !important;
   border-style: none !important;
   border-width: unset !important;
+  border: none !important;
 }
 
 .main-table-inner thead tr th {
